@@ -1,0 +1,29 @@
+{
+  "name": "stylex",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@stylexjs/stylex": "^0.11.0",
+    "@types/react": "18.0.0",
+    "@types/react-dom": "18.0.0",
+    "react": "18.0.0",
+    "react-dom": "18.0.0"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.26.3",
+    "@stylexjs/babel-plugin": "^0.11.0",
+    "@stylexjs/postcss-plugin": "^0.11.0",
+    "@types/node": "^22.13.8",
+    "@vitejs/plugin-react": "^4.3.4",
+    "globals": "^15.15.0",
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0"
+  }
+}
