@@ -8,6 +8,7 @@ module.exports = {
       {
         dev: process.env.NODE_ENV === "development",
         test: process.env.NODE_ENV === "test",
+        debug: true,
         runtimeInjection: false,
         genConditionalClasses: true,
         treeshakeCompensation: true,
